@@ -33,8 +33,8 @@ public class SwaggerConfig extends WebMvcConfigurerAdapter {
     }
 
     private ApiInfo apiInfo() {
-        return new ApiInfoBuilder().title("JavaInUse API")
-                .description("JavaInUse API reference for developers")
+        return new ApiInfoBuilder().title("Pos-Graduacao FIAP")
+                .description("API de cadastro de tarefas pessoais")
                 .termsOfServiceUrl("http://javainuse.com")
                 .contact("javainuse@gmail.com").license("JavaInUse License")
                 .licenseUrl("javainuse@gmail.com").version("1.0").build();
